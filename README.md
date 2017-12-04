@@ -101,6 +101,7 @@ More information on statistic calculations can be found [here](#statistics)
 | threads                | The total number of threads to use during test execution                                                                          |        1       |
 | durationMs             | Total time to run the test in millisecs (ms) (includes warmup period)                                                             |      60,000    |
 | warmUpMs               | Warm up period in ms, test logic will be executed during warm up, but results will not be considered during statistics evaluation |        0       |
+| rampUpMs               | Period of time to wait in between adding test threads, ramup period should *not* exceed warmUpMs                                  |        0       |
 | maxExecutionsPerSecond | Sets the maximum number of iteration per second (disabled by default)                                                             |       -1       |
 
 <br />

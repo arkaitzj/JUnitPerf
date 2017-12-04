@@ -22,4 +22,7 @@ public @interface JUnitPerfTest {
   // Default value is no limit
   int maxExecutionsPerSecond() default -1;
 
+  // Period of time to wait in between adding test threads
+  int rampUpMs() default 0;
+
 }
