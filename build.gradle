@@ -62,9 +62,11 @@ artifacts {
 }
 
 // http://blog.sonatype.com/2010/01/how-to-generate-pgp-signatures-with-maven/
+/*
 signing {
     sign configurations.archives
 }
+*/
 
 // http://central.sonatype.org/pages/gradle.html
 uploadArchives {
